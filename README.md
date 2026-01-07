@@ -44,3 +44,19 @@ It is designed to help in **accident analysis, driver behavior monitoring, and v
 ---
 
 ## 📂 Folder Structure
+car-black-box-embedded/
+│
+├── README.md
+│
+├── src/              # ALL .c files
+│   ├── main.c
+│   ├── lcd.c
+│   ├── keypad.c
+│   ├── eeprom.c
+│   ├── rtc.c
+│
+├── inc/              # ALL .h files
+│   ├── lcd.h
+│   ├── keypad.h
+│   ├── eeprom.h
+│   ├── rtc.h
